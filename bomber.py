@@ -295,7 +295,7 @@ def pretty_print(cc,target,success,failed):
     mesgdcrt.GeneralMessage("Sent         : " + str(requested))
     mesgdcrt.GeneralMessage("Successful   : " + str(success))
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
-    mesgdcrt.WarningMessage("use a proxy connection to avoid detection"")
+    mesgdcrt.WarningMessage("use a proxy connection to avoid detection🔍")
     mesgdcrt.SuccessMessage("Goat was created by WhiteDevil_")
 
 def workernode(mode,cc,target,count,delay,max_threads):
@@ -303,13 +303,13 @@ def workernode(mode,cc,target,count,delay,max_threads):
     api = APIProvider(cc,target,mode,delay=delay)
     
     clr()
-    mesgdcrt.SectionMessage("Gearing up the Goat - Please be patient")
-    mesgdcrt.GeneralMessage("Please stay connected to the internet during bombing")
+    mesgdcrt.SectionMessage("Gearing up the Goat - Please be patient⚙️")
+    mesgdcrt.GeneralMessage("Please stay connected to the internet during bombing📡")
     mesgdcrt.GeneralMessage("Target        : " + cc + target)
     mesgdcrt.GeneralMessage("Amount        : " + str(count) )
     mesgdcrt.GeneralMessage("Threads       : " + str(max_threads) + " threads")
     mesgdcrt.GeneralMessage("Delay         : " + str(delay) + " seconds")
-    mesgdcrt.WarningMessage("use a proxy connection to avoid detection"")
+    mesgdcrt.WarningMessage("use a proxy connection to avoid detection🔍")
     print()
     input(mesgdcrt.CommandMessage("Press [CTRL+Z] to stop the Goat or [ENTER] to resume it"))
 
