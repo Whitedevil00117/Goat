@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Whitedevil00117/goat"><img src="https://https://images.app.goo.gl/fmgBgnA6WiTwjPzS9/Goat.png" alt="Goat"></a>
+  <a href="https://github.com/Whitedevil00117/goat"><img src="https://images.app.goo.gl/fmgBgnA6WiTwjPzS9/Goat.png" alt="Goat"></a>
   <br>
   Goat v0.1
   <br>
