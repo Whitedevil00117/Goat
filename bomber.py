@@ -172,13 +172,6 @@ def bann_text():
     clr()
     logo="""
    ████████ █████                 ██
-   ▒▒▒██▒▒▒ ██▒▒██                ██
-      ██    ██  ██        ██   ██ ██
-      ██    █████▒  ████  ███ ███ █████
-      ██    ██▒▒██ ██  ██ ██▒█▒██ ██▒▒██
-      ██    ██  ██ ██  ██ ██ ▒ ██ ██  ██
-      ██    █████▒ ▒████▒ ██   ██ █████▒
-      ▒▒    ▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒
                                          """
     version="Version: "+__VERSION__
     contributors="Contributors: "+" ".join(__CONTRIBUTORS__)
@@ -204,7 +197,7 @@ def do_zip_update():
     success=False
 
     # Download Zip from git
-    # Unzip and overwrite the current folder
+   
 
     if success:
         mesgdcrt.SuccessMessage("TBomb was updated to the latest version")
@@ -213,7 +206,7 @@ def do_zip_update():
         mesgdcrt.FailureMessage("Unable to update TBomb.")
         mesgdcrt.WarningMessage("Grab The Latest one From https://github.com/TheSpeedX/TBomb.git")
 
-    sys.exit()
+    
 
 def do_git_update():
     success=False
@@ -239,7 +232,7 @@ def do_git_update():
         mesgdcrt.WarningMessage("Make Sure To Install 'git' ")
         mesgdcrt.GeneralMessage("Then run command:")
         print("git checkout . && git pull https://github.com/TheSpeedX/TBomb.git HEAD")
-    sys.exit()
+   
 
 def update():
     if shutil.which('git'):
