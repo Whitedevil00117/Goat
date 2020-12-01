@@ -13,8 +13,7 @@
 
 
 > ## Deprecation Warning:
-> **All Goat versions below
-v2.0 will no longer work after 14-11-2020.**  
+> **All Goat versions below v2.0 will no longer work after 14-11-2020.**  
 **All Goat users need to update to v2.0 ASAP**
 
 **Due to overuse of script, a bunch APIs have been taken offline. It is okay if you do not receive all the messages.**
@@ -22,8 +21,7 @@ v2.0 will no longer work after 14-11-2020.**
 
 - The application requires active internet connection to contact the APIs
 - You would not be charged for any SMS/calls dispatched as a consequence of this script
-- For best performance, use
-single thread with considerable delay time
+- For best performance, use single thread with considerable delay time
 - Always ensure that you are using the latest version of Goat and have Python 3
 - This application must not be used by newcomers as it may cause havoc upon others...
 - By using this, you agree that you cannot hold the contributors responsible for any misuse
@@ -98,6 +96,7 @@ bash goat.sh
 ### For MacOS
 
 To use the application, type in the following commands in MacOS terminal:
+
 #### Install Brew
 
 ```shell script
