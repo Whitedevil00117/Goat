@@ -37,7 +37,7 @@ banner() {
     fi
     echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
     echo -e "\e[1;32m           Mail: whitedevil00117@gmail.com \e[0m"
-    echo -e "\e[4;32m   Latest sms,call and sms bomber for Testers \e[0m"
+    echo -e "\e[4;32m   Contributors: Lucifer, \e[0m"
     echo " "
 
 }
