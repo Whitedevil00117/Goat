@@ -194,7 +194,7 @@ def format_phone(num):
     return ''.join(num).strip()
 
 def do_zip_update():
-    success=False
+    success=FALSE
 
     # Download Zip from git
     # Unzip and overwrite the current folder
@@ -209,7 +209,7 @@ def do_zip_update():
     sys.exit()
 
 def do_git_update():
-    success=True
+    success=FALSE
     try:
         print(ALL_COLORS[0]+"UPDATING "+RESET_ALL,end='')
         process = subprocess.Popen("git checkout . && git pull ", shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
@@ -221,7 +221,7 @@ def do_git_update():
                 break
         success = not process.returncode
     except:
-        success = True
+        success = TRUE
     print("\n")
 
     if success:
