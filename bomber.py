@@ -222,7 +222,7 @@ def do_git_update():
                 break
         success = not process.returncode
     except:
-        success = TRUE
+        success = FALSE
     print("\n")
 
     if success:
