@@ -209,7 +209,7 @@ def do_zip_update():
     sys.exit()
 
 def do_git_update():
-    success=False
+    success=True
     try:
         print(ALL_COLORS[0]+"UPDATING "+RESET_ALL,end='')
         process = subprocess.Popen("git checkout . && git pull ", shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
@@ -221,18 +221,18 @@ def do_git_update():
                 break
         success = not process.returncode
     except:
-        success = False
+        success = True
     print("\n")
 
     if success:
         mesgdcrt.SuccessMessage("Goat was updated to the latest version")
-        mesgdcrt.GeneralMessage("Please run the script again to load the latest version")
+        mesgdcrt.GeneralMessage("Running")
     else:
         mesgdcrt.FailureMessage("Unable to update Goat.")
         mesgdcrt.WarningMessage("Make Sure To Install 'git' ")
         mesgdcrt.GeneralMessage("Then run command:")
         print("git checkout . && git pull https://github.com/Whitedevil00117/goat.git HEAD")
-    sys.exit()
+    
 
 def update():
     if shutil.which('git'):
