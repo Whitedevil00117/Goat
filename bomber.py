@@ -194,7 +194,7 @@ def format_phone(num):
     return ''.join(num).strip()
 
 def do_zip_update():
-    success=TRUE
+    success=FALSE
 
     # Download Zip from git
     # Unzip and overwrite the current folder
@@ -209,7 +209,7 @@ def do_zip_update():
     sys.exit()
 
 def do_git_update():
-    success=TRUE
+    success=FALSE
 
     try:
         print(ALL_COLORS[0]+"UPDATING "+RESET_ALL,end='')
