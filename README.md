@@ -12,11 +12,7 @@
 ## Note:
 
 
-> ## Deprecation Warning:
-> **All Goat versions below v2.0 will no longer work after 14-11-2020.**  
-**All Goat users need to update to v2.0 ASAP**
-
-**Due to overuse of script, a bunch APIs have been taken offline. It is okay if you do not receive all the messages.**
+>**Due to overuse of script, a bunch APIs have been taken offline. It is okay if you do not receive all the messages.**
 
 
 - The application requires active internet connection to contact the APIs
